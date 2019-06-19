@@ -1,0 +1,25 @@
+<resources>
+  <style name="AppDefault" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/accent_material_light</item>
+    <!--item name="android:actionBarStyle">@style/MyActionBar</item-->
+    <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+  </style>
+
+  <style name="AppDefault.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="AppDefault.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+  <style name="AppDefault.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="MyTextViewStyle" parent="@android:style/TextAppearance.Large">
+  </style>
+  <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <item name="android:background">@color/colorPrimary</item>
+  </style>
+
+</resources>

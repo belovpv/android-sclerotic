@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="10dp"
+  app:dragEdge="right"
+  app:mode="same_level">
+
+  <ImageButton
+    android:id="@+id/cmdDelete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:contentDescription="@string/str_delete_item"
+    android:src="@android:drawable/ic_menu_delete" />
+
+  <LinearLayout
+    android:id="@+id/row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="-10dp"
+    android:layout_marginEnd="100dp"
+    android:orientation="horizontal">
+
+    <CheckBox
+      android:id="@+id/chkNoteActive"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="7dp"
+      android:scaleX="2"
+      android:scaleY="2" />
+
+    <TextView
+      android:id="@+id/txtNoteText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  </LinearLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

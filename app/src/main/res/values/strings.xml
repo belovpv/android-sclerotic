@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Sclerotic</string>
+  <string name="action_settings">Settings</string>
+  <string name="action_save">Save</string>
+  <string name="category">Category</string>
+  <string name="note">Note</string>
+  <string name="str_delete_item">Delete item</string>
+  <string name="deleting">Deleting</string>
+  <string name="ensure">Ensure</string>
+  <string name="cancel">Cancel</string>
+  <string name="ensure_deleting">Are you ensure to delete non-empty category?</string>
+</resources>
